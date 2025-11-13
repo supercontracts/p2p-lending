@@ -1,6 +1,6 @@
 ## P2P Lending Matching Engine
 
-Superlend is an experimental liquidity matching engine that pairs token lenders and borrowers and pipes idle liquidity into an Aave v3 reserve. The system is implemented in Solidity and tested with Foundry.
+P2P Lending is an experimental liquidity matching engine that pairs token lenders and borrowers and pipes idle liquidity into an Aave v3 reserve. The system is implemented in Solidity and tested with Foundry.
 
 - Lenders post principal at a minimum acceptable rate; funds are auto-supplied to Aave until paired.
 - Borrowers submit requests with a maximum rate; when a compatible lender exists the engine settles on a midpoint rate.
