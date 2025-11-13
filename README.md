@@ -45,7 +45,9 @@ The suite uses in-memory mocks for the ERC20 reserve and Aave pool so it runs de
 - **Idle Liquidity Management**: Unmatched lender liquidity is continuously supplied to Aave. Yield is accounted for when lenders cancel.
 - **Simple Interest Loans**: Loans accrue simple interest based on rate (basis points) and elapsed time (`calculateDebt`).
 
-## Scripts and Deployment
+## Gas Report
+
+![Gas consumption summary](./gas_report.png)
 
 No deployment scripts are packaged yet. To experiment on a local Anvil chain:
 
